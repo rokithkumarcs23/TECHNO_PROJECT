@@ -1,0 +1,8 @@
+Sample PCAP Directory
+======================
+This folder contains sample packet capture files (.pcap / .pcapng) used for offline testing and demonstration of the Network Intrusion Detection System (NIDS).
+
+You can generate a safe synthetic test PCAP file with port scans, brute-force connection indicators, and traffic floods using:
+    python data/generate_sample_pcap.py
+
+Alternatively, you can click "Generate Synthetic Demo PCAP" directly inside the Streamlit web dashboard sidebar.
